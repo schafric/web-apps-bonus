@@ -8,6 +8,7 @@ import {
   Button,
   Divider,
 } from '@chakra-ui/react';
+import { MinusIcon } from '@chakra-ui/icons';
 
 function Substract({ counter, decrement }) {
 
@@ -20,7 +21,7 @@ function Substract({ counter, decrement }) {
                 </Text>
                 <Divider />
 
-                <Button onClick={decrement}>Counter is: {counter}</Button>
+                <Button leftIcon={<MinusIcon />} color="green.50" bg="green.400" _hover={{bg: "green.600"}} onClick={decrement}>Counter is: {counter}</Button>
             </VStack>
         </Grid>
     </Box>

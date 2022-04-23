@@ -8,6 +8,7 @@ import {
   Button,
   Divider,
 } from '@chakra-ui/react';
+import { AddIcon } from '@chakra-ui/icons';
 
 function Add({ counter, increment }) {
   return (
@@ -20,7 +21,7 @@ function Add({ counter, increment }) {
 
                 <Divider />
 
-                <Button onClick={increment}>Counter is: {counter}</Button>
+                <Button leftIcon={<AddIcon />}  color="green.50" bg="green.400" _hover={{bg: "green.600"}} onClick={increment}>Counter is: {counter}</Button>
             </VStack>
         </Grid>
     </Box>
