@@ -16,7 +16,7 @@ function Add({ counter, increment }) {
         <Grid minH="100vh" p={3}>
             <VStack spacing={8}>
                 <Text>
-                    Click the <Code fontSize="xl">button</Code> below to increase the counter.
+                    Click the <Code fontSize="xl">button</Code> below to increment the counter.
                 </Text>
 
                 <Divider />

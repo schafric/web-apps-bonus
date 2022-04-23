@@ -17,7 +17,7 @@ function Substract({ counter, decrement }) {
         <Grid minH="100vh" p={3}>
             <VStack spacing={8}>
                 <Text>
-                    Click the <Code fontSize="xl">button</Code> below to decrease the counter.
+                    Click the <Code fontSize="xl">button</Code> below to decrement the counter.
                 </Text>
                 <Divider />
 
